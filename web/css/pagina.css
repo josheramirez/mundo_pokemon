@@ -1,0 +1,68 @@
+body{
+	font-family: Helvetica, sans-serif;
+}
+
+div#bienvenidaB{
+	position: absolute;
+	height: 50px;
+	width: 500px;
+	border-radius: 0px 0px 15px 0px;
+	top: 0;
+	left: 0;
+	background-color: rgba(200,200,225,0.5);
+}
+
+div#nUsuario{
+	position: absolute;
+	top: 50%;
+	right: 10%;
+}
+
+div#pokemones{
+	padding: 10px;
+    position:absolute;
+    right: 22%;
+    top:130px;
+	height:60%;
+}
+div#personaje{
+	padding: 10px;
+    position:absolute;
+    left: 22%;
+    top:130px;
+	height:60%;
+}
+div#opciones{
+    position:absolute;
+    left: 25%;
+    bottom:5%;
+}
+.poke {
+	border-radius: 50%;
+}
+img#unopk {
+  object-fit: cover;
+  animation-iteration-count: infinite;
+  width: 250px;
+  height: 188px;
+}
+.charDiv{
+	position:absolute;
+	left: 20%;
+	top: 20%;
+}
+.charPhoto{
+	object-fit: cover;
+	object-position: 100% 0;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+div#charStats{
+	position: absolute;
+	bottom: 0%;
+	left: 25%;
+}
+.profileButtons{
+	height: 50px;
+}
